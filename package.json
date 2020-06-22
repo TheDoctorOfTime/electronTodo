@@ -1,0 +1,21 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "To Do List Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "keywords": [
+    "TODO",
+    "List"
+  ],
+  "author": "Rafael Ignacio",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.3"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  }
+}

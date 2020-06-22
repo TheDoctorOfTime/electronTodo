@@ -1,0 +1,85 @@
+html{
+    overflow-x: hidden;
+}
+
+#center{
+    text-align: center;
+}
+
+#todoItemText{
+    border-radius: 2em 0em 0em 2em;
+    border-color: rgb(190, 190, 190);
+}
+
+#todoItemText:hover{
+    border-color: rgb(69, 163, 226);
+}
+
+#todoItemText:focus{
+    border-color: rgb(255, 126, 249);
+}
+
+#button-addon2{
+    border-radius: 0em 2em 2em 0em;
+}
+
+#btn{
+    margin-top: 0.5em;
+    border-radius: 4em;
+}
+
+#dataItem{
+    padding-right: 8em;
+}
+
+.card{
+    margin: -1px;
+}
+
+#textboxControl{
+    border-radius: 2em 0em 0em 2em;
+    margin-left: 10px;
+}
+
+.cbCont{
+    background-color: white;
+    border-style: none;
+    position: relative;
+}
+
+.rightSpace{
+    margin-right: 10px;
+}
+
+.btn-circle[state="unchecked"] {
+    width: 26px;
+    height: 26px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    border-color: rgb(187, 187, 187);
+    background-color: white;
+    background-image: none;
+    background-size: 14px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-circle[state="checked"] {
+    width: 26px;
+    height: 26px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    border-color: #c070b3;
+    background-color: #c070b3;
+    background-image: url(check.svg);
+    background-size: 14px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: ease-in-out 300ms;
+}
